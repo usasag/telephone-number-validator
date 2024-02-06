@@ -16,6 +16,10 @@ function validatePhoneNumber() {
         resultMsg.style.color = 'red';
         resultMsg.style.display = 'flex';
     }
+
+    if (phoneNumber === "") {
+        alert("Please provide a phone number.")
+    }
 }
 
 function clearInput() {
