@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --phone-colors: #dfdfe2;
+    --gray-00: #fff;
+    --main-bg-color: #3b3b4f;
+}
+
+* {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+title {
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--main-bg-color);
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;
+    margin: 0;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+button {
+    padding: 0.5rem; /* Decrease the padding to make the button smaller */
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: black;
+    background-image: linear-gradient(0deg, grey 10%, white); /* Change the background color to a greyish tone */
+    border: 1px solid light-grey;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: center;
+    margin: 0.3rem;
+}
+
+label {
+    line-height: 2.5rem;
+    align-self: center;
+    font-size: 1.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    size: auto;
+}
+
+input {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: 1px solid light-grey;
+    border-radius: 14px;
+    margin: 0.5rem 0.5rem 1rem 0.5rem;
+    width: 100%;
+    max-width: 200px;
+    align-self: center;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 0.7rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: inherit;
+    margin: 0.5rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    position: relative;
+    bottom: 96px;
+}
+
+.error-msg {
+    display: none;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    background-color: var(--phone-colors);
+    border-radius: 10px;
+    margin: 1rem;
+    size; auto;
+    padding: 1rem;
+    padding-bottom: 10rem;
+    border: 15px solid black;
+    border-bottom: 70px solid black;
+    border-top: 50px solid black;
+}
+
+#result-msg {
+    display: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 1rem;
+    text-align: center;
+    align-self: center;
+}
